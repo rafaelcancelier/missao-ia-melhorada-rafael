@@ -15,11 +15,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Fazer seu hobby em casa.",
-                afirmacao: "Você se sente mais confortável e relaxado ao praticar seu hobby no ambiente de casa.",
+                afirmacao:[
+                    "Você se sente mais confortável e relaxado ao praticar seu hobby no ambiente de casa.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             },
             {
                 texto: "Fazer seu hobby fora de casa.",
-                afirmacao: "Você gosta de explorar novos lugares e aproveitar o ar livre ao realizar seu hobby.",
+                afirmacao:[ 
+                    "Você gosta de explorar novos lugares e aproveitar o ar livre ao realizar seu hobby.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             }
         ]
     },
@@ -28,11 +36,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Todos os dias ou quase todos os dias.",
-                afirmacao: "Você integra seu hobby na rotina diária para manter o equilíbrio e o prazer constante.",
+                afirmacao:[
+                    "Você integra seu hobby na rotina diária para manter o equilíbrio e o prazer constante.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             },
             {
                 texto: "Algumas vezes por semana ou menos.",
-                afirmacao: "Você prefere reservar momentos especiais para seu hobby, tornando-o uma recompensa ocasional.",
+                afirmacao:[
+                    "Você prefere reservar momentos especiais para seu hobby, tornando-o uma recompensa ocasional.",
+                    "afirmaçao 2",
+                    "afirmaçao 3"
+                ]
             }
         ]
     },
@@ -41,11 +57,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Hobbies criativos, como pintar ou escrever.",
-                afirmacao: "Você gosta de expressar ideias e emoções através de criações artísticas e imaginativas.",
+                afirmacao:[ 
+                    "Você gosta de expressar ideias e emoções através de criações artísticas e imaginativas."
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             },
             {
                 texto: "Hobbies físicos, como correr ou dançar.",
-                afirmacao: "Você valoriza o movimento e a energia que os hobbies ativos trazem para o corpo e a mente.",
+                afirmacao:[
+                    "Você valoriza o movimento e a energia que os hobbies ativos trazem para o corpo e a mente.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             }
         ]
     },
@@ -54,11 +78,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "sim, gosto de fazer com amigos ou família",
-                afirmacao: "Você encontra mais diversão ao conectar-se com outros e trocar experiências no hobby.",
+                afirmacao:[
+                    "Você encontra mais diversão ao conectar-se com outros e trocar experiências no hobby.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             },
             {
                 texto: "Não, prefiro praticar sozinho.",
-                afirmacao: "Você aprecia a introspecção e o foco pessoal que um hobby solitário proporciona.",
+                afirmacao:[
+                    "Você aprecia a introspecção e o foco pessoal que um hobby solitário proporciona.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             }
         ]
     },
@@ -67,11 +99,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "De manhã ou à tarde.",
-                afirmacao: "Você usa o hobby para energizar o dia e manter a produtividade alta.",
+                afirmacao:[
+                    "Você usa o hobby para energizar o dia e manter a produtividade alta.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             },
             {
                 texto: "À noite ou antes de dormir",
-                afirmacao: "Você relaxa com o hobby no final do dia, ajudando a desconectar e descansar melhor.",
+                afirmacao:[
+                    "Você relaxa com o hobby no final do dia, ajudando a desconectar e descansar melhor.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             }
         ]
     },
@@ -79,12 +119,20 @@ const perguntas = [
         enunciado: "Você já pensou em transformar seu hobby em profissão?",
         alternativas: [
             {
-                texto: "Sim, adoraria trabalhar com isso.",
-                afirmacao: "Você sonha em unir paixão e carreira para uma vida mais realizada profissionalmente.",
+                texto:"Sim, adoraria trabalhar com isso.",
+                afirmacao:[
+                    "Você sonha em unir paixão e carreira para uma vida mais realizada profissionalmente.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                ]
             },
             {
                 texto: "Não, prefiro mantê-lo como lazer.",
-                afirmacao: "Você preserva o hobby como um escape puro, sem pressões de trabalho ou obrigações.",
+                afirmacao:[
+                    "Você preserva o hobby como um escape puro, sem pressões de trabalho ou obrigações.",
+                    "afirmaçao 2",
+                    "afirmaçao 3",
+                    ]
             }
         ]
     },
