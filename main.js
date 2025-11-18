@@ -58,7 +58,7 @@ const perguntas = [
             {
                 texto: "Hobbies criativos, como pintar ou escrever",
                 afirmacao:[ 
-                    "Você gosta de expressar ideias e emoções através de criações artísticas e imaginativas."
+                    "Você gosta de expressar ideias e emoções através de criações artísticas e imaginativas.",
                     "Transformar pensamentos em obras tangíveis traz uma sensação única de realização e liberdade",
                     "O processo criativo funciona como uma válvula de escape, ajudando a aliviar o estresse e a recarregar as energias mentais",
                 ]
@@ -166,7 +166,7 @@ function mostraAlternativas(){
 
 
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPerguntas();
@@ -176,6 +176,11 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Se fosse possível ...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
+}
+
+function aleatorio(lista){
+    const posicao = Math.floor(Math.random()*lista.length);
+    return lista[posicao];
 }
 
 mostraPerguntas();
