@@ -36,7 +36,7 @@ const perguntas = [
                 afirmacao:[
                     "Você prefere reservar momentos especiais para seu hobby, tornando-o uma recompensa ocasional.",
                     "Equilibrar o hobby com outras responsabilidades permite que cada sessão seja mais intensa e revigorante",
-                    "A raridade das práticas aumenta a expectativa e o entusiasmo, renovando a motivação a cada retorno"
+                    "A raridade das práticas aumenta a expectativa e o entusiasmo, renovando a motivação a cada retorno",
                 ]
             }
         ]
